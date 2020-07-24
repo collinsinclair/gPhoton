@@ -1,6 +1,6 @@
 """
 .. module:: imagetools
-   :synopsis: Tools for the cration of count and intensity images and movies.
+   :synopsis: Tools for the creation of count and intensity images and movies.
 """
 
 from __future__ import absolute_import, division, print_function
@@ -211,7 +211,7 @@ def makemap(band, skypos, trange, skyrange, response=False, verbose=0,
     :returns: numpy.ndarray - The bi-dimensional histogram of ra and dec.
     """
 
-    imsz = gxt.deg2pix(skypos, skyrange)
+    imsz = gxt.deg2pix(skypos, skyrange).astype(int)
 
     photons = np.array(gQuery.getArray(
         gQuery.skyrect(band, skypos[0], skypos[1], trange[0], trange[1],
