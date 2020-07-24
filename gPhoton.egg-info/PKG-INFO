@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gPhoton
+Version: 1.28.9
+Summary: The GALEX photon project.
+Home-page: https://github.com/cmillion/gPhoton
+Author: Chase Million, et al.
+Author-email: chase.million@gmail.com
+License: AURA
+Description: UNKNOWN
+Keywords: astronomy,galex,photometry,ultraviolet
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python

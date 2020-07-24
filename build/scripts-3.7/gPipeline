@@ -1,0 +1,6 @@
+#!/Users/collinsinclair/anaconda3/bin/python3
+
+from gPhoton.gPipeline import __main__
+
+if __name__ == '__main__':
+    __main__()
